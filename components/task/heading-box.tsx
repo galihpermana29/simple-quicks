@@ -20,7 +20,7 @@ export default function HeadingBox({ data }: HeadingBoxI) {
         <div className="flex w-[600px] flex-1 justify-between ">
           <div className="ml-[10px]">
             <Typography.Paragraph
-              className={`mt-[0px] w-full text-[16px] font-bold text-[#4F4F4F] ${finish ? "line-through" : ""}`}
+              className={`typo mt-[0px] w-full text-[16px] font-bold text-[#4F4F4F] ${finish ? "line-through" : ""}`}
               editable={{
                 triggerType: ["text"],
                 enterIcon: null,

@@ -16,7 +16,6 @@ body {
   padding: 0;
 }
 
-div:where(.css-dev-only-do-not-override-1adbn6x).ant-typography,
-:where(.css-dev-only-do-not-override-1adbn6x).ant-typography p {
+.typo {
   margin: 0 !important;
 }

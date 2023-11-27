@@ -18,4 +18,4 @@ jobs:
         with:
           node-version: "${{ env.node_version }}"
       - name: Install dependencies
-        run: npm install --frozen-lockfile
+        run: npm install
